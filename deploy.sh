@@ -13,6 +13,8 @@ git init
 git add -A
 git commit -m 'deploy'
 
-git push -f git@github.com:AliceCooper214/alicecooper214.github.io.git master:gh-pages
+git remote add origin https://github.com/AliceCooper214/alicecooper214.github.io.git
+git checkout -b gh-pages
+git push -f git@github.com:AliceCooper214/alicecooper214.github.io.git gh-pages
 
 cd -
