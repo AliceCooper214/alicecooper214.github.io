@@ -15,6 +15,7 @@ git commit -m 'deploy'
 
 git remote add origin https://github.com/AliceCooper214/alicecooper214.github.io.git
 git checkout -b gh-pages
-git push -f git@github.com:AliceCooper214/alicecooper214.github.io.git gh-pages
+git fetch
+git push -f https://github.com/AliceCooper214/alicecooper214.github.io.git
 
 cd -
